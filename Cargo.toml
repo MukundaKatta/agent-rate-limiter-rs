@@ -1,0 +1,12 @@
+[package]
+name = "agent-rate-limiter"
+version = "0.1.0"
+edition = "2021"
+description = "Token bucket rate limiter for LLM agent API calls"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-rate-limiter-rs"
+keywords = ["llm", "rate-limiter", "token-bucket", "agent", "throttle"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
